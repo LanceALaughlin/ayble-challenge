@@ -26,12 +26,15 @@ const IntakeForm = ({ questions }: { questions: QuestionType[] }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
   useEffect(() => {
-    window.scroll({
-      top: document.body.offsetHeight,
-      left: 0,
-      behavior: "smooth",
-    });
-  }, [formData]);
+    console.log(currentQuestionIndex);
+    if (currentQuestionIndex !== 0) {
+      window.scroll({
+        top: document.body.offsetHeight,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+  }, [formData, currentQuestionIndex]);
 
   const onFieldChange = (
     questionId: string,
