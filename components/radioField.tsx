@@ -17,7 +17,7 @@ const DropdownField = ({
       {question.answers.map((answer) => (
         <div
           key={answer.answerId}
-          className={`border rounded-md my-2 max-w-[400px] hover:border-ayble-secondary transition-colors ${
+          className={`border rounded-md my-2 max-w-[400px] hover:border-ayble-green transition-colors ${
             value === answer.answerId && "border-ayble-green"
           }`}
         >
