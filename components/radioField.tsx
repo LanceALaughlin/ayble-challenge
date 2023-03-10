@@ -13,7 +13,7 @@ const DropdownField = ({
 }) => {
   return (
     <fieldset className={`mt-10 ${hidden ? "hidden" : "block"}`}>
-      <div className="mb-5 max-w-[750px]">{question.questionText}</div>
+      <div className="mb-5 max-w-[750px] text-lg">{question.questionText}</div>
       {question.answers.map((answer) => (
         <div
           key={answer.answerId}
