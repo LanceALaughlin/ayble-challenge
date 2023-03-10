@@ -1,0 +1,137 @@
+[
+  {
+    "questionId": "onboarding-uc-1",
+    "fieldType": "dropdown",
+    "questionText": "On average, how many bowel movements did you have each day (during the daytime) over the past 7 days (1 week)?",
+    "answers": [
+      {
+        "answerId": "onboarding-uc-ans-1-03",
+        "answerText": "0-3 stools/day",
+        "score": 0
+      },
+      {
+        "answerId": "onboarding-uc-ans-1-46",
+        "answerText": "4-6 stools/day",
+        "score": 1
+      },
+      {
+        "answerId": "onboarding-uc-ans-1-79",
+        "answerText": "7-9 stools/day",
+        "score": 2
+      },
+      {
+        "answerId": "onboarding-uc-ans-1-10-more",
+        "answerText": "10+ stools/day",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "questionId": "onboarding-uc-2",
+    "fieldType": "dropdown",
+    "questionText": "On average, how many bowel movements did you have each night (during the night) over the past 7 days (1 week)?",
+    "answers": [
+      {
+        "answerId": "onboarding-uc-ans-2-0",
+        "answerText": "0 stools/night",
+        "score": 0
+      },
+      {
+        "answerId": "onboarding-uc-ans-2-13",
+        "answerText": "1-3 stools/night",
+        "score": 1
+      },
+      {
+        "answerId": "onboarding-uc-ans-2-46",
+        "answerText": "4-6 stools/night",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "questionId": "onboarding-uc-3",
+    "fieldType": "dropdown",
+    "questionText": "How urgent were your bowel movements on average over the past 7 days (1 week)?",
+    "answers": [
+      {
+        "answerId": "onboarding-uc-ans-3-urgency",
+        "answerText": "No urgency",
+        "score": 0
+      },
+      {
+        "answerId": "onboarding-uc-ans-3-hurry",
+        "answerText": "I had to hurry",
+        "score": 1
+      },
+      {
+        "answerId": "onboarding-uc-ans-3-go",
+        "answerText": "I had to go immediately",
+        "score": 2
+      },
+      {
+        "answerId": "onboarding-uc-ans-3-in",
+        "answerText": "I was incontinent",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "questionId": "onboarding-uc-4",
+    "fieldType": "dropdown",
+    "questionText": "On average how much blood was present in your stool over the past 7 days (1 week)?",
+    "answers": [
+      {
+        "answerId": "onboarding-uc-ans-4-none",
+        "answerText": "None",
+        "score": 0
+      },
+      {
+        "answerId": "onboarding-uc-ans-4-trace",
+        "answerText": "Trace Amounts",
+        "score": 1
+      },
+      {
+        "answerId": "onboarding-uc-ans-4-mod",
+        "answerText": "A moderate amount (but less than half the time)",
+        "score": 2
+      },
+      {
+        "answerId": "onboarding-uc-ans-4-lot",
+        "answerText": "A lot (more than half the time)",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "questionId": "onboarding-uc-5",
+    "fieldType": "scale",
+    "questionText": "How would you rate your general wellbeing over the past 7 days (1 week)? 0 (worst) to 10 (best)",
+    "answers": [
+      {
+        "answerId": "onboarding-uc-ans-5-very-well",
+        "answerText": "Very Well (>7)",
+        "score": 0
+      },
+      {
+        "answerId": "onboarding-uc-ans-5-par",
+        "answerText": "Slightly below par (6)",
+        "score": 1
+      },
+      {
+        "answerId": "onboarding-uc-ans-5-poor",
+        "answerText": "Poor (5)",
+        "score": 2
+      },
+      {
+        "answerId": "onboarding-uc-ans-5-very-poor",
+        "answerText": "Very poor (4)",
+        "score": 3
+      },
+      {
+        "answerId": "onboarding-uc-ans-5-terrible",
+        "answerText": "Terrible (<4)",
+        "score": 4
+      }
+    ]
+  }
+]
