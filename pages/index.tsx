@@ -3,8 +3,6 @@ import Header from "@components/components/header";
 import questions from "../questions.json";
 import IntakeForm from "@components/components/intakeForm";
 
-// TODO: Read through code and optimize/clean up
-
 export default function Home() {
   return (
     <>
