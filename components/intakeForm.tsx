@@ -21,6 +21,8 @@ const IntakeForm = ({ questions }: { questions: QuestionType[] }) => {
   const [formData, setFormData] = useState<FormDataType[]>(() =>
     generateDefaultState(questions)
   );
+
+  // Keeps track of the index of the last rendered question
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
   useEffect(() => {
