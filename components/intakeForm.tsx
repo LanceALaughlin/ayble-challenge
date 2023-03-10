@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { FormEvent, useState, useEffect } from "react";
 import RadioField from "./radioField";
 import { QuestionType } from "@components/types/app";
 
@@ -22,6 +22,14 @@ const IntakeForm = ({ questions }: { questions: QuestionType[] }) => {
     generateDefaultState(questions)
   );
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+
+  useEffect(() => {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, [formData]);
 
   const onFieldChange = (
     questionId: string,
@@ -56,7 +64,10 @@ const IntakeForm = ({ questions }: { questions: QuestionType[] }) => {
     formData.every((set) => set.answerId);
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col justify-center">
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col justify-center mb-10"
+    >
       {questions.map((question, i) => {
         return (
           <RadioField

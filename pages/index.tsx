@@ -3,9 +3,7 @@ import Header from "@components/components/header";
 import questions from "../questions.json";
 import IntakeForm from "@components/components/intakeForm";
 
-// TODO: Scroll to bottom after question select
 // TODO: Read through code and optimize/clean up
-// TODO: Figure out approach for last question
 
 export default function Home() {
   return (
